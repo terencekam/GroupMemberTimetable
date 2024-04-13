@@ -1,0 +1,149 @@
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n\r\n    <groupId>cos.hudie.hk.groupTimeTable</groupId>\r\n    <artifactId>GroupMemberTimetable</artifactId>\r\n    <version>1.0-SNAPSHOT</version>\r\n    <properties>\r\n        <maven.compiler.source>17</maven.compiler.source>\r\n        <maven.compiler.target>17</maven.compiler.target>\r\n        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\r\n    </properties>\r\n    <dependencies>\r\n        <dependency>\r\n            <groupId>com.aspose</groupId>\r\n            <artifactId>aspose-cells</artifactId>\r\n            <version>24.2</version>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>com.h2database</groupId>\r\n            <artifactId>h2</artifactId>\r\n            <version>2.2.224</version>\r\n            <scope>test</scope>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>org.xerial</groupId>\r\n            <artifactId>sqlite-jdbc</artifactId>\r\n            <version>3.32.3.2</version>\r\n        </dependency>\r\n        <dependency>\r\n            <groupId>com.mysql</groupId>\r\n            <artifactId>mysql-connector-j</artifactId>\r\n            <version>8.3.0</version>\r\n        </dependency>\r\n    </dependencies>\r\n    <repositories>\r\n        <repository>\r\n            <snapshots>\r\n                <enabled>false</enabled>\r\n            </snapshots>\r\n            <id>central</id>\r\n            <name>libs-release</name>\r\n            <url>https://releases.aspose.com/java/repo/</url>\r\n        </repository>\r\n        <repository>\r\n            <snapshots>\r\n                <enabled>false</enabled>\r\n            </snapshots>\r\n            <id>central2</id>\r\n            <name>central2</name>\r\n            <url>https://repo.maven.apache.org/maven2/</url>\r\n        </repository>\r\n    </repositories>\r\n\r\n\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	(revision 0db71fe8b6fcd9b25960b279d32301751526781d)
++++ b/pom.xml	(date 1709713036251)
+@@ -27,7 +27,7 @@
+         <dependency>
+             <groupId>org.xerial</groupId>
+             <artifactId>sqlite-jdbc</artifactId>
+-            <version>3.32.3.2</version>
++            <version>3.45.1.0</version>
+         </dependency>
+         <dependency>
+             <groupId>com.mysql</groupId>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ArtifactsWorkspaceSettings\">\r\n    <artifacts-to-build>\r\n      <artifact name=\"GroupMemberTimetable:jar\" />\r\n    </artifacts-to-build>\r\n  </component>\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"fce70000-cd19-4f87-8966-e8b21d65912b\" name=\"Changes\" comment=\"update dependencies\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/out/artifacts/GroupMemberTimetable_jar/GroupMemberTimetable.jar\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/out/artifacts/GroupMemberTimetable_jar/Members.mv.db\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/out/artifacts/GroupMemberTimetable_jar/config.yml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/cos/hudie/hk/groupTimeTable/GroupManager/GroupMemberManager.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/cos/hudie/hk/groupTimeTable/GroupManager/GroupMemberManager.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"UPDATE_TYPE\" value=\"REBASE\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;terencekam&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GitHubPullRequestState\">{\r\n  &quot;prStates&quot;: [\r\n  ]\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/terencekam/GroupMemberTimetable.git&quot;,\r\n    &quot;accountId&quot;: &quot;7e9ff46d-d4cb-4295-ab27-e74a919eb6da&quot;\r\n  }\r\n}</component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;customColor&quot;: &quot;&quot;,\r\n  &quot;associatedIndex&quot;: 7\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2dFikpnZvIl4QewI4h7ad6YKYDi\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Application.Main.executor&quot;: &quot;Run&quot;,\r\n    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,\r\n    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,\r\n    &quot;Maven.GroupMemberTimetable [-B,package,--file...].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.GroupMemberTimetable [clean,install...].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.GroupMemberTimetable [clean].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.GroupMemberTimetable [install:install-file...].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.GroupMemberTimetable [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.GroupMemberTimetable [org.apache.maven.plugins:maven-install-plugin:3.1.1:install].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.GroupMemberTimetable [org.apache.maven.plugins:maven-jar-plugin:3.3.0:jar].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.GroupMemberTimetable [org.apache.maven.plugins:maven-jar-plugin:3.3.0:test-jar].executor&quot;: &quot;Run&quot;,\r\n    &quot;Maven.GroupMemberTimetable [org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources].executor&quot;: &quot;Run&quot;,\r\n    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,\r\n    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/TerenceKam/Documents/GitHub/GroupMemberTimetable&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.15294118&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"ImportExportFile.TargetDir.RECENT_KEYS\">\r\n      <recent name=\"$PROJECT_DIR$\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunAnythingCache\">\r\n    <option name=\"myCommands\">\r\n      <command value=\"mvn clean install -Dmaven.test.skip=true\" />\r\n      <command value=\"mvn install:install-file C:\\Users\\TerenceKam\\Downloads\\lib\" />\r\n      <command value=\"mvn install:install-file C:\\Users\\TerenceKam\\Downloads\\lib\\h2-2.2.224.jar\" />\r\n      <command value=\"mvn install:install-file -Dfile=&quot;C:\\Users\\TerenceKam\\Downloads\\lib\\h2-2.2.224.jar&quot;\" />\r\n      <command value=\"mvn install:install-file -Dfile=C:\\Users\\TerenceKam\\Downloads\\lib\\h2-2.2.224.jar\" />\r\n      <command value=\"mvn -B package --file pom.xml \" />\r\n    </option>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" nameIsGenerated=\"true\">\r\n      <option name=\"INCLUDE_PROVIDED_SCOPE\" value=\"true\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"cos.hudie.hk.groupTimeTable.Main\" />\r\n      <module name=\"GroupMemberTimetable\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-1d06a55b98c1-e293885f7bc4-JavaScript-IU-241.11761.10\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"fce70000-cd19-4f87-8966-e8b21d65912b\" name=\"Changes\" comment=\"\" />\r\n      <created>1709610374481</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1709610374481</updated>\r\n      <workItem from=\"1709610378669\" duration=\"709000\" />\r\n      <workItem from=\"1709611101803\" duration=\"4989000\" />\r\n      <workItem from=\"1709625235613\" duration=\"410000\" />\r\n      <workItem from=\"1709625697126\" duration=\"12469000\" />\r\n      <workItem from=\"1709650974912\" duration=\"3789000\" />\r\n      <workItem from=\"1709657781622\" duration=\"3730000\" />\r\n      <workItem from=\"1709700316072\" duration=\"344000\" />\r\n      <workItem from=\"1709708556550\" duration=\"1380000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"/\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709625627950</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709625627950</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"/\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709651163903</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709651163903</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"/\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709651616542</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709651616542</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"update dependencies\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709658461301</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709658461301</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"update dependencies\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709659226404</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709659226404</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"update dependencies\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709659756436</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709659756436</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"update dependencies\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709660092405</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709660092405</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"update dependencies\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709660292726</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709660292726</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"9\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"/\" />\r\n    <MESSAGE value=\"update dependencies\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"update dependencies\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 0db71fe8b6fcd9b25960b279d32301751526781d)
++++ b/.idea/workspace.xml	(date 1709713140364)
+@@ -10,11 +10,10 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="fce70000-cd19-4f87-8966-e8b21d65912b" name="Changes" comment="update dependencies">
++      <change beforePath="$PROJECT_DIR$/.idea/artifacts/GroupMemberTimetable_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/GroupMemberTimetable_jar.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/out/artifacts/GroupMemberTimetable_jar/GroupMemberTimetable.jar" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/out/artifacts/GroupMemberTimetable_jar/Members.mv.db" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/out/artifacts/GroupMemberTimetable_jar/config.yml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/cos/hudie/hk/groupTimeTable/GroupManager/GroupMemberManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cos/hudie/hk/groupTimeTable/GroupManager/GroupMemberManager.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/artifacts/GroupMemberTimetable_jar/GroupMemberTimetable.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GroupMemberTimetable_jar/GroupMemberTimetable.jar" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -53,42 +52,42 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
+-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+-    &quot;Maven.GroupMemberTimetable [-B,package,--file...].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.GroupMemberTimetable [clean,install...].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.GroupMemberTimetable [clean].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.GroupMemberTimetable [install:install-file...].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.GroupMemberTimetable [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.GroupMemberTimetable [org.apache.maven.plugins:maven-install-plugin:3.1.1:install].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.GroupMemberTimetable [org.apache.maven.plugins:maven-jar-plugin:3.3.0:jar].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.GroupMemberTimetable [org.apache.maven.plugins:maven-jar-plugin:3.3.0:test-jar].executor&quot;: &quot;Run&quot;,
+-    &quot;Maven.GroupMemberTimetable [org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources].executor&quot;: &quot;Run&quot;,
+-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+-    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/TerenceKam/Documents/GitHub/GroupMemberTimetable&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.15294118&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "Application.Main.executor": "Run",
++    "Application.Unnamed.executor": "Run",
++    "Downloaded.Files.Path.Enabled": "false",
++    "Maven.GroupMemberTimetable [-B,package,--file...].executor": "Run",
++    "Maven.GroupMemberTimetable [clean,install...].executor": "Run",
++    "Maven.GroupMemberTimetable [clean].executor": "Run",
++    "Maven.GroupMemberTimetable [install:install-file...].executor": "Run",
++    "Maven.GroupMemberTimetable [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
++    "Maven.GroupMemberTimetable [org.apache.maven.plugins:maven-install-plugin:3.1.1:install].executor": "Run",
++    "Maven.GroupMemberTimetable [org.apache.maven.plugins:maven-jar-plugin:3.3.0:jar].executor": "Run",
++    "Maven.GroupMemberTimetable [org.apache.maven.plugins:maven-jar-plugin:3.3.0:test-jar].executor": "Run",
++    "Maven.GroupMemberTimetable [org.apache.maven.plugins:maven-resources-plugin:3.3.1:resources].executor": "Run",
++    "Repository.Attach.Annotations": "false",
++    "Repository.Attach.JavaDocs": "true",
++    "Repository.Attach.Sources": "false",
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "git-widget-placeholder": "master",
++    "kotlin-language-version-configured": "true",
++    "last_opened_file_path": "C:/Users/TerenceKam/Downloads/sqlite-jdbc-3.45.1.0.jar",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.stylelint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.stylelint": "",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "project.structure.last.edited": "Artifacts",
++    "project.structure.proportion": "0.16503906",
++    "project.structure.side.proportion": "0.5550351",
++    "settings.editor.selected.configurable": "preferences.pluginManager",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="ImportExportFile.TargetDir.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$" />
+Index: .idea/artifacts/GroupMemberTimetable_jar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"ArtifactManager\">\r\n  <artifact type=\"jar\" name=\"GroupMemberTimetable:jar\">\r\n    <output-path>$PROJECT_DIR$/out/artifacts/GroupMemberTimetable_jar</output-path>\r\n    <root id=\"archive\" name=\"GroupMemberTimetable.jar\">\r\n      <element id=\"directory\" name=\"META-INF\">\r\n        <element id=\"file-copy\" path=\"$PROJECT_DIR$/META-INF/MANIFEST.MF\" />\r\n      </element>\r\n      <element id=\"module-output\" name=\"GroupMemberTimetable\" />\r\n      <element id=\"extracted-dir\" path=\"$USER_HOME$/Downloads/sqlite-jdbc-3.32.3.2.jar\" path-in-jar=\"/\" />\r\n      <element id=\"extracted-dir\" path=\"$USER_HOME$/Downloads/h2-2.2.224.jar\" path-in-jar=\"/\" />\r\n      <element id=\"extracted-dir\" path=\"$USER_HOME$/Downloads/aspose-cells-24.2.jar\" path-in-jar=\"/\" />\r\n      <element id=\"extracted-dir\" path=\"$USER_HOME$/Downloads/mysql-connector-j-8.3.0.jar\" path-in-jar=\"/\" />\r\n    </root>\r\n  </artifact>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/artifacts/GroupMemberTimetable_jar.xml b/.idea/artifacts/GroupMemberTimetable_jar.xml
+--- a/.idea/artifacts/GroupMemberTimetable_jar.xml	(revision 0db71fe8b6fcd9b25960b279d32301751526781d)
++++ b/.idea/artifacts/GroupMemberTimetable_jar.xml	(date 1709713493913)
+@@ -6,10 +6,11 @@
+         <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+       </element>
+       <element id="module-output" name="GroupMemberTimetable" />
+-      <element id="extracted-dir" path="$USER_HOME$/Downloads/sqlite-jdbc-3.32.3.2.jar" path-in-jar="/" />
+-      <element id="extracted-dir" path="$USER_HOME$/Downloads/h2-2.2.224.jar" path-in-jar="/" />
+-      <element id="extracted-dir" path="$USER_HOME$/Downloads/aspose-cells-24.2.jar" path-in-jar="/" />
+-      <element id="extracted-dir" path="$USER_HOME$/Downloads/mysql-connector-j-8.3.0.jar" path-in-jar="/" />
++      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/aspose/aspose-cells/24.2/aspose-cells-24.2.jar" path-in-jar="/" />
++      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar" path-in-jar="/" />
++      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/mysql/mysql-connector-j/8.3.0/mysql-connector-j-8.3.0.jar" path-in-jar="/" />
++      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.25.1/protobuf-java-3.25.1.jar" path-in-jar="/" />
++      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/xerial/sqlite-jdbc/3.45.1.0/sqlite-jdbc-3.45.1.0.jar" path-in-jar="/" />
+     </root>
+   </artifact>
+ </component>
+\ No newline at end of file
