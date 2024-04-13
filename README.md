@@ -30,5 +30,3 @@ then the program will export the suitable timetable for each student.
 3. Please config the `config.yml`
 4. execute `java -jar *.jar` again
 
-## Wiki
-Please click [here](\wiki.md)
