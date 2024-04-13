@@ -1,4 +1,4 @@
-[![CI](https://github.com/terencekam/GroupMemberTimetable/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/terencekam/GroupMemberTimetable/actions/workflows/maven.yml)
+[![CI](https://github.com/terencekam/GroupMemberTimetable/actions/workflows/maven.yml/badge.svg)](https://github.com/terencekam/GroupMemberTimetable/actions/workflows/maven.yml)
 ## Description
 For college students to make up a timetable for Group Project use, enter the student info (Tutorial Group, Student ID, Student Name and the timetable of each student)
 then the program will export the suitable timetable for each student.
