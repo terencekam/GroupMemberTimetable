@@ -59,7 +59,7 @@ public class WebPaste {
 
                         } while (!IsDayOfWeek(list.get(i)));
                         tempList.add(new ArrayList<>(tempSubList));
-                        tempSubList.clear();
+                        tempSubList.clear();//
                     } else {
                         tempList.add(new ArrayList<>());
                     }
