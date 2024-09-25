@@ -409,16 +409,16 @@ public class Query extends cos.hudie.hk.groupTimeTable.Database.Query {
         try {
             Statement statement = connection.createStatement();
             statement.execute("LOCK TABLES GroupMember WRITE , TimeTable WRITE , Student WRITE");
-            Main.AddINFO("SQL: DELETE FROM GroupMember WHERE StudentID = %s".formatted(StudentID));
-            statement.execute("DELETE FROM GroupMember WHERE StudentID = %s".formatted(StudentID));
+            Main.AddINFO("SQL: DELETE FROM GroupMember WHERE StudentID = '%s'".formatted(StudentID));
+            statement.execute("DELETE FROM GroupMember WHERE StudentID = '%s'".formatted(StudentID));
 
 
             Main.AddINFO("SQL: DELETE FROM TimeTable WHERE StudentID = '%s'".formatted(StudentID));
             statement.execute("DELETE FROM TimeTable WHERE StudentID = '%s'".formatted(StudentID));
 
 
-            Main.AddINFO("SQL: DELETE FROM Student WHERE StudentID = %s".formatted(StudentID));
-            statement.execute("DELETE FROM Student WHERE StudentID = %s".formatted(StudentID));
+            Main.AddINFO("SQL: DELETE FROM Student WHERE StudentID = '%s'".formatted(StudentID));
+            statement.execute("DELETE FROM Student WHERE StudentID = '%s'".formatted(StudentID));
 
             connection.commit();
             statement.execute("UNLOCK TABLES");

@@ -10,7 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fce70000-cd19-4f87-8966-e8b21d65912b" name="Changes" comment="- bug fix&#10;- allow multi user use of Mysql database">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cos/hudie/hk/groupTimeTable/Database/MySQL/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cos/hudie/hk/groupTimeTable/Database/MySQL/Query.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cos/hudie/hk/groupTimeTable/Database/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cos/hudie/hk/groupTimeTable/Database/Query.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +88,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/TerenceKam/Downloads/sqlite-jdbc-3.45.1.0.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/TerenceKam/Documents/GitHub/GroupMemberTimetable&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -129,8 +132,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
@@ -184,6 +187,27 @@
       <workItem from="1712659909803" duration="3859000" />
       <workItem from="1712887242763" duration="26697000" />
       <workItem from="1712984259447" duration="9658000" />
+      <workItem from="1713010696469" duration="2619000" />
+      <workItem from="1713016325231" duration="2322000" />
+      <workItem from="1713026953340" duration="2761000" />
+      <workItem from="1713089752602" duration="6263000" />
+      <workItem from="1713169931673" duration="1689000" />
+      <workItem from="1713181259014" duration="5192000" />
+      <workItem from="1713231699917" duration="5448000" />
+      <workItem from="1713243332585" duration="681000" />
+      <workItem from="1713246811823" duration="1869000" />
+      <workItem from="1714057607978" duration="85000" />
+      <workItem from="1714058308658" duration="164000" />
+      <workItem from="1714194281545" duration="662000" />
+      <workItem from="1714210189801" duration="6335000" />
+      <workItem from="1715151029816" duration="292000" />
+      <workItem from="1715355503667" duration="9000" />
+      <workItem from="1726135867385" duration="2249000" />
+      <workItem from="1726507259780" duration="1061000" />
+      <workItem from="1726509266364" duration="592000" />
+      <workItem from="1726542124380" duration="1879000" />
+      <workItem from="1726559338510" duration="1518000" />
+      <workItem from="1727255853857" duration="90000" />
     </task>
     <task id="LOCAL-00001" summary="/">
       <option name="closed" value="true" />
@@ -548,6 +572,17 @@
     <MESSAGE value="bug fix" />
     <MESSAGE value="- bug fix&#10;- allow multi user use of Mysql database" />
     <option name="LAST_COMMIT_MESSAGE" value="- bug fix&#10;- allow multi user use of Mysql database" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cos/hudie/hk/groupTimeTable/Main.java</url>
+          <line>375</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

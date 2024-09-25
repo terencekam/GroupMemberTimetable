@@ -311,16 +311,16 @@ public class Query {
     public boolean deleteStudent(String StudentID) {
         try {
             Statement statement = connection.createStatement();
-            Main.AddINFO("SQL: DELETE FROM GroupMember WHERE StudentID = %s".formatted(StudentID));
-            statement.execute("DELETE FROM GroupMember WHERE StudentID = %s".formatted(StudentID));
+            Main.AddINFO("SQL: DELETE FROM GroupMember WHERE StudentID = '%s'".formatted(StudentID));
+            statement.execute("DELETE FROM GroupMember WHERE StudentID = '%s'".formatted(StudentID));
             
 
             Main.AddINFO("SQL: DELETE FROM TimeTable WHERE StudentID = '%s'".formatted(StudentID));
             statement.execute("DELETE FROM TimeTable WHERE StudentID = '%s'".formatted(StudentID));
             
 
-            Main.AddINFO("SQL: DELETE FROM Student WHERE StudentID = %s".formatted(StudentID));
-            statement.execute("DELETE FROM Student WHERE StudentID = %s".formatted(StudentID));
+            Main.AddINFO("SQL: DELETE FROM Student WHERE StudentID = '%s'".formatted(StudentID));
+            statement.execute("DELETE FROM Student WHERE StudentID = '%s'".formatted(StudentID));
             
 
 
